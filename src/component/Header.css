@@ -1,0 +1,102 @@
+.row{
+    padding: 3% 10% 2%;
+}
+
+.Title, .Text{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+.userName{
+    color: #4070F4FF;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+}
+.Text{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 10px;*/
+    line-height: 50px;
+    width: 400px;
+}
+
+.ContactBtn{
+    padding: 8px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4070F4FF;
+    margin-top: 50px;
+}
+.btnText{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    gap: 28px;
+    margin-top: 100px;
+}
+.Icon{
+    width: 30px;
+}
+
+.userPhoto{
+    width: 90%;
+    border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+    .row{
+        padding: 0 10%;
+
+        flex-flow: column-reverse;
+    }
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .icons{
+        display: flex;
+        gap: 28px;
+        margin-top: 30px;
+    }
+    .media{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .ContactBtn{
+        padding: 8px 40px;
+        border: none;
+        border-radius: 10px;
+        background-color: #4070F4FF;
+        margin-top: 20px;
+        width: 75%;
+    }
+    .userPhoto{
+        width: 70%;
+        margin-top: 30px;
+    }
+    .Title, .Text{
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        width: 100%;
+        line-height: 50px;
+    }
+    .Text{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 50px;
+        width: 100%;
+    }
+    .userName{
+        color: #4070F4FF;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 900;
+    }
+}
